@@ -1,12 +1,13 @@
 
 package Condicion;
 
-import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 public class ExpresionesRegulares {
-
+/* Una Expresión Regular es un patrón que nos permite identificar o validar si una entrada
+de texto cumple con ciertos requisitos establecidos previamente. Establecemos el patrón 
+mediante un STRING y siguiendo unos códigos establecidos */ 
 public static void main(String[] args) {
 	/*
 	 * Para usar expresiones regulares en Java necesitamos usar dos clases nuevas: Pattern y Matcher
