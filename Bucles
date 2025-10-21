@@ -1,0 +1,27 @@
+
+package Bucles; /*Bucle For y if/else
+
+import java.util.Scanner;
+
+public class BuclesFor {
+
+	public static void main(String[] args) {
+		
+	/*ENUNCIADO: Realiza un programa que dado por teclado un límite númerico (100) muestre 
+en pantalla todos los números hasta ese límite (empezando por 1)*/	
+	 
+		Scanner teclado= new Scanner (System.in);
+		int limite= 100;
+		System.out.println("Escribe tu número: ");
+		int num=teclado.nextInt();
+		
+		if(num>limite) {
+			System.out.println("El número es mayor a "+limite);
+		}else {
+			System.out.println("números desde "+ num +"hasta");
+		for (int i=num; i<=limite; i++) {
+			System.out.println(i+ " ");
+		}
+		}
+	}
+}
