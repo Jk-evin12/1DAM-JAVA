@@ -1,5 +1,5 @@
 
-package Bucles; /*Bucle For y if/else
+package Bucles; /*Bucle FOR*/
 
 import java.util.Scanner;
 
@@ -7,21 +7,18 @@ public class BuclesFor {
 
 	public static void main(String[] args) {
 		
-	/*ENUNCIADO: Realiza un programa que dado por teclado un límite númerico (100) muestre 
+	/*ENUNCIADO: Realiza un programa que dado por teclado  muestre 
 en pantalla todos los números hasta ese límite (empezando por 1)*/	
 	 
-		Scanner teclado= new Scanner (System.in);
-		int limite= 100;
-		System.out.println("Escribe tu número: ");
-		int num=teclado.nextInt();
+	int numero;
+		Scanner teclado= new Scanner(System.in);
 		
-		if(num>limite) {
-			System.out.println("El número es mayor a "+limite);
-		}else {
-			System.out.println("números desde "+ num +"hasta");
-		for (int i=num; i<=limite; i++) {
-			System.out.println(i+ " ");
+		System.out.println("Ingresa tu número: ");
+		numero=teclado.nextInt();
+		
+		for(int i=0; i<numero; i++) {
+			System.out.println(i+1);
 		}
-		}
-	}
+	
+	}		
 }
